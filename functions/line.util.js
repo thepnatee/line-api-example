@@ -4,7 +4,6 @@ const axios = require("axios");
 const crypto = require("crypto");
 
 const LINE_MESSAGING_API = process.env.LINE_MESSAGING_API;
-const LINE_ISSUE_ACCESS_TOKEN_API = process.env.LINE_ISSUE_ACCESS_TOKEN_API;
 const LINE_USER_ID = process.env.LINE_USER_ID;
 const LINE_CHANNEL_SECRET = process.env.LINE_CHANNEL_SECRET;
 const DIALOGFLOW_AGENT_ID = process.env.DIALOGFLOW_AGENT_ID;
